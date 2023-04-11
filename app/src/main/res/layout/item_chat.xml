@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/layout_chat_item"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_chat_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="8:45"
+        android:textColor="#828282"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="16dp"
+        android:textSize="14sp"
+        android:layout_below="@+id/tv_chat_content"
+        android:layout_gravity="right"
+        />
+
+    <TextView
+        android:id="@+id/tv_chat_content"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:maxWidth="220dp"
+        android:background="@drawable/opo_msg_back"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Xin chào Việt Nam"
+        android:textColor="#fff"
+        android:textSize="14sp" />
+
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">AppShopPet</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="facebook_app_id">2106192589571001</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">b037df9e8b35eb596a58d3ccb45d9e3c</string>
+    <string name="title_activity_admin">Admin</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="diachi"><b>Địa chỉ:</b> Số 168 Thương Đình - Thanh Xuân - Hà Nội</string>
+    <string name="dienthoai"><b>Điện thoại:</b> 0833123993</string>
+    <string name="email"><b>Email:</b> matpetfamily@gmail.com</string>
+
+
+</resources>

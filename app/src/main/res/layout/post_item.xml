@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginBottom="20dp">
+
+
+    <ImageView
+        android:id="@+id/ivPost_image"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.125" />
+
+    <TextView
+        android:id="@+id/tvPost_title"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Tiêu đề bài viết"
+        android:textColor="#333333"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/ivPost_image"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvPost_published_at"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:text="Ngày đăng"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/ivPost_image"
+        app:layout_constraintTop_toBottomOf="@+id/tvPost_title" />
+
+    <Button
+        android:id="@+id/btnXemthem"
+        android:layout_width="100dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="12dp"
+        android:height="40dp"
+        android:backgroundTint="#de8ebe"
+        android:gravity="center"
+        android:text="Xem thêm"
+        android:textColor="#ffffff"
+        android:textSize="10dp"
+        app:layout_constraintStart_toEndOf="@+id/ivPost_image"
+        app:layout_constraintTop_toBottomOf="@+id/tvPost_published_at" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

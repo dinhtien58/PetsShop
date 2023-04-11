@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_order_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#EFEEEE"
+    android:layout_marginTop="12dp"
+    >
+    <TextView
+        android:id="@+id/tv_order_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ID: #11123x9"
+        android:textColor="#333333"
+        android:textSize="20sp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="12dp"
+        />
+    <TextView
+        android:id="@+id/tv_order_overview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Overview:"
+        android:textSize="15sp"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="20dp"/>
+    <TextView
+        android:id="@+id/tv_order_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Địa chỉ: Ninh sở, Thường tín, Hà Nội"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="12dp" />
+    <TextView
+        android:id="@+id/tv_order_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date: Ngày 12 tháng 2 năm 2023"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="12dp" />
+    <TextView
+        android:id="@+id/tv_order_total_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tổng tiền : 12000 đ"
+        android:textColor="#eb3e32"
+        android:textSize="20sp"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        />
+</LinearLayout>

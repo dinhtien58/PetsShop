@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/product_cart_img"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toEndOf="@+id/cb_item_cart"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/product_cart_name"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="21dp"
+        android:text=""
+        android:textColor="#333333"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/product_cart_img"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:text="Số lượng"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/product_cart_img"
+        app:layout_constraintTop_toBottomOf="@+id/product_cart_name" />
+
+    <EditText
+        android:id="@+id/product_cart_quatity"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="5dp"
+        android:background="#fff"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:text="1"
+        android:textSize="12sp"
+        app:layout_constraintStart_toEndOf="@+id/btn_cart_sub"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/btn_cart_sub"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="-"
+        app:layout_constraintStart_toEndOf="@+id/product_cart_img"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/btn_cart_plus"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="+"
+        app:layout_constraintStart_toEndOf="@+id/product_cart_quatity"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/product_cart_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:text="32.000 đồng"
+        android:textColor="#eb3e32"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/product_cart_img"
+        app:layout_constraintTop_toBottomOf="@+id/product_cart_quatity" />
+
+    <TextView
+        android:id="@+id/tv_delete_p_cart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="12dp"
+        android:text="Xóa sản phẩm"
+        android:textColor="#D61355"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/product_cart_name" />
+
+    <CheckBox
+        android:id="@+id/cb_item_cart"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "7734942359",
+    "firebase_url": "https://pet-shop-app-9a3f9-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "pet-shop-app-9a3f9",
+    "storage_bucket": "pet-shop-app-9a3f9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:7734942359:android:058dfbf1862b70fb89e7d2",
+        "android_client_info": {
+          "package_name": "com.etrungpro.appshoppet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "7734942359-nv4h7ms1ee1u8901ban32folaksqbmfl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.etrungpro.appshoppet",
+            "certificate_hash": "b7f7a2ee991b9bcc566bb7fafa7477e924b7b05c"
+          }
+        },
+        {
+          "client_id": "7734942359-lvhb56hk90au67fdpro6v20suv8u44l4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZ1eBTOvV_KGCShhlMF2IGlpMn3bPO6EU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "7734942359-lvhb56hk90au67fdpro6v20suv8u44l4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

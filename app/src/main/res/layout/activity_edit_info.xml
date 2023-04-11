@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.EditInfoActivity"
+    android:orientation="vertical">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="20dp"
+        android:text="Chỉnh sửa thông tin"
+        android:textColor="#333333"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#e6e6e6"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+
+    <ImageView
+        android:id="@+id/img_info"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="16dp"/>
+
+    <TextView
+        android:id="@+id/tv_email_info"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:paddingLeft="18dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit_outline"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="16dp"
+        android:textColor="#333333"
+        android:textSize="16sp"
+        android:layout_marginRight="16dp"/>
+
+    <EditText
+        android:id="@+id/edt_firstName_info"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:hint="First Name"
+        android:paddingLeft="18dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit_outline"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"/>
+
+    <EditText
+        android:id="@+id/edt_lastName_info"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:hint="Last Name"
+        android:paddingLeft="18dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit_outline"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"/>
+
+    <EditText
+        android:id="@+id/edt_password_info"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingLeft="18dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit_outline"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"/>
+
+    <EditText
+        android:id="@+id/edt_new_password_info"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:hint="New password"
+        android:inputType="textPassword"
+        android:paddingLeft="18dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit_outline"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"/>
+
+    <EditText
+        android:id="@+id/edt_password_confirm_info"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:hint="Confirm password"
+        android:paddingLeft="18dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit_outline"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"/>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_confirm_info"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginTop="35dp"
+        android:backgroundTint="#D61355"
+        android:text="Xác nhận"
+        app:cornerRadius="12dp"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>
